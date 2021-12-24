@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<HTml>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="1e=edge">
+    <title>output your details </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+        .bt{
+            margin-top: 12px;
+            border-radius: 6px;
+        }
+        #flex{
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+        }
+      </style>
+    
+</head>
+<body class="text-center">
+
+        <div class="container" id="flex">
+            
+    <div>
+        
+         <div class="image">
+            <img src="img.jpg" alt="image" height="220px" width="220px">
+         </div>
+        
+    </div>
+
+    <div>
+        <form id="my-form">
+            <h1>
+                Add users
+            </h1>
+            <div class="msg"></div>
+            <div>
+                <label for="name" ></label>
+                <input type="text" id="name" placeholder="name">
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="email">
+                
+            </div>
+            <input class="bt" type="submit" value="submit">
+        </form>
+        <ul id="users"></ul>
+        <ul class="items">
+            <div id="li"> </div>
+            
+            <!--<li class="item">item1</li>
+            <li class="item">item2</li>
+            <li class="item">item3</li>
+            <li class="item">item4</li>-->
+        </ul>
+    
+    </div>
+</div>
+    <script src="main.js" defer ></script>
+
+    
+
+
+
+    
+    
+
+</body>
+</HTml>
